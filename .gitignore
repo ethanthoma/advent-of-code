@@ -1,0 +1,5 @@
+/gomod2nix-template
+
+# direnv
+.direnv
+.envrc
