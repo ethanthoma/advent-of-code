@@ -7,7 +7,7 @@ import (
     "errors"
 )
 
-func day_one_solution() {
+func main() {
     sum, err := processFile("./data/one.txt")
     if err != nil {
         fmt.Println("Error processing file:", err)

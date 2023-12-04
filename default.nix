@@ -16,6 +16,6 @@ buildGoApplication {
   pname = "advent-of-code";
   version = "0.1";
   pwd = ./.;
-  src = ./.;
+  src = ./src/.;
   modules = ./gomod2nix.toml;
 }
